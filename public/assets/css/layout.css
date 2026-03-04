@@ -1,0 +1,431 @@
+/* ================= NAV ================= */
+
+.nav {
+    background: rgba(255,255,255,0.95);
+    backdrop-filter: blur(10px);
+    padding: 18px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.05);
+}
+
+
+.logo img {
+    height: 50px;
+}
+
+.nav-links {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+/* ================= HERO ================= */
+
+.hero {
+    margin-top: 80px;
+    background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+        url('../images/gallery/patio-pavers-complete.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: var(--white);
+    padding: 160px 40px;
+    text-align: center;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 72px;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+.hero-teal {
+    color: var(--teal);
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+/* ================= SECTIONS ================= */
+
+.section-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section-subtitle {
+    font-size: 20px;
+    color: var(--text-gray);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.before-after-section {
+    padding: 40px 40px;
+    text-align: center;
+}
+
+.before-after-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.before-after-card {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.services-section {
+    padding: 40px 40px;
+    background: #f3f4f6;
+    border-top: 1px solid #e5e7eb;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.services-page-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.service-card-content h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.service-card-content p {
+    color: var(--text-gray);
+    margin-bottom: 20px;
+}
+
+.service-card-photo {
+    background: var(--white);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+.service-card-photo:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 60px rgba(0,0,0,0.12);
+}
+
+.service-card-content {
+    padding: 30px;
+    text-align: center;
+}
+
+/* ================= STATS ================= */
+
+.stats-section {
+    padding: 40px 40px;
+    background: #0f0f0f;
+    color: var(--white);
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.stat-box {
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 64px;
+    font-weight: 800;
+}
+
+/* ================= GALLERY ================= */
+
+.gallery-preview {
+    padding: 40px 40px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+/* ================= CTA ================= */
+
+/* ================= CTA ================= */
+
+.cta-section {
+    padding: 160px 40px; /* Bigger vertical spacing */
+    background: 
+        linear-gradient(rgba(0, 184, 212, 0.65), rgba(0, 184, 212, 0.65)), 
+        url('../images/gallery/roofing-repair.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    color: var(--white);
+}
+
+.cta-section h2 {
+    font-size: 64px;          /* BIG + bold */
+    font-weight: 800;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+}
+
+.cta-section p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    opacity: 0.95;
+}
+
+/* White CTA Button */
+.cta-btn {
+    background: white;
+    color: var(--teal);
+    padding: 20px 60px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.25s ease;
+}
+
+.cta-btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+/* ================= FOOTER ================= */
+
+.footer {
+    background: var(--black);
+    color: var(--white);
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.page-header {
+    padding: 150px 60px 40px;
+    background: var(--teal);
+    color: var(--white);
+    text-align: center;
+    font-size: 20px;
+}
+
+.large-phone {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--teal);
+    display: block;
+    margin: 20px 0;
+}
+
+.contact-link {
+    color: var(--teal);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+.contact-form-section {
+    background: #f3f4f6;
+    padding: 80px 40px;
+}
+
+.form-container {
+    max-width: 700px;
+    margin: 0 auto;
+    background: var(--white);
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 14px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    border-color: var(--teal);
+    outline: none;
+}
+
+.submit-btn {
+    width: 100%;
+    background: var(--teal);
+    color: var(--white);
+    padding: 16px;
+    border-radius: 6px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background: var(--teal-hover);
+}
+
+/* HERO CONTENT CENTER */
+.hero-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+.hero-buttons {
+    display: inline-flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+/* BEFORE / AFTER */
+.ba-label {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 8px 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.before-label {
+    background: #dc3545;
+    color: white;
+}
+
+.after-label {
+    background: #28a745;
+    color: white;
+}
+
+.before-after-card {
+    position: relative;
+}
+
+.service-areas {
+    background: #f3f4f6;
+    padding: 100px 40px;
+    text-align: center;
+}
+
+.service-areas h2 {
+    padding: 5px 20px 40px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.areas-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.area-card {
+    background: white;
+    border-radius: 20px;
+    border: 3px solid var(--teal);
+    padding: 50px 40px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.06);
+    text-align: center;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.area-card h3 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.area-card p {
+    color: #555;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+.map-section {
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.map-section h2 {
+    padding: 5px 20px 40px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.map-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 3px solid var(--teal);
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+}

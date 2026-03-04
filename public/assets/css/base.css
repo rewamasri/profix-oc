@@ -1,0 +1,42 @@
+:root {
+    --teal: #00B8D4;
+    --teal-hover: #009BB8;
+    --black: #000;
+    --white: #fff;
+    --gray: #f8f8f8;
+    --text-gray: #666;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #ffffff;
+    line-height: 1.6;
+    color: var(--black);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+section {
+    scroll-margin-top: 100px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
