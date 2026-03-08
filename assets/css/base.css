@@ -22,6 +22,7 @@ body {
     background: #ffffff;
     line-height: 1.6;
     color: var(--black);
+    padding-top: 120px;
 }
 
 img {
@@ -39,4 +40,8 @@ section {
     padding: 0 10px;
 }
 
-
+@media (max-width: 768px) {
+    body {
+        padding-top: 260px;
+    }
+}
