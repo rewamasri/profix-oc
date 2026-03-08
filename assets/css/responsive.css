@@ -133,13 +133,73 @@
 
 
 /* ================== SMALL MOBILE ================== */
+/* ================== SMALL MOBILE ================== */
 @media (max-width: 480px) {
 
+    /* NAV (reinforce stacking) */
+    .nav {
+        position: relative;
+        flex-direction: column;
+        gap: 12px;
+        padding: 12px 15px;
+    }
+
+    body {
+        padding-top: 0;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .nav-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .btn-primary {
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+        padding: 12px;
+    }
+
+    .logo img {
+        max-width: 120px;
+    }
+
+    /* HERO */
+    .hero {
+        padding: 80px 20px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    /* GRIDS */
     .stats-grid {
         grid-template-columns: 1fr;
     }
 
     .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .before-after-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-grid {
         grid-template-columns: 1fr;
     }
 
