@@ -3,12 +3,10 @@
     .contact-grid {
         grid-template-columns: repeat(2, 1fr);
     }
-
 }
 
 @media (max-width: 992px) {
 
-    /* NAV */
     .nav {
         padding: 15px 20px;
     }
