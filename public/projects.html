@@ -16,12 +16,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
 </head>
 
+<script src="assets/js/script.js"></script>
+
 <body>
 
 <nav class="nav">
     <div class="logo">
         <a href="index.html">
-            <img src="assets/images/logo/black-logo.png" alt="ProFix">
+            <img src="assets/images/logo/transparent-logo.png" alt="ProFix">
         </a>
     </div>
 
@@ -55,43 +57,67 @@
     <div class="gallery-grid">
 
         <div class="gallery-item">
-            <img src="assets/images/gallery/kitchen-remodel-1.jpg" alt="Kitchen Remodel">
-            <div class="gallery-overlay"><strong>Kitchen Remodel</strong></div>
+
+            <div class="gallery-slider">
+                <img src="assets/images/gallery/kitchen-remodel-1.jpg" class="slide active">
+                <img src="assets/images/gallery/kitchen-remodel-2.jpg" class="slide">
+
+                <button class="slide-btn prev">&#10094;</button>
+                <button class="slide-btn next">&#10095;</button>
+            </div>
+
+            <div class="gallery-overlay">
+                <strong>Kitchen Remodel</strong>
+            </div>
+
         </div>
 
         <div class="gallery-item">
-            <img src="assets/images/gallery/kitchen-remodel-2.jpg" alt="Kitchen Island">
-            <div class="gallery-overlay"><strong>Kitchen Island</strong></div>
+
+            <div class="gallery-slider">
+                <img src="assets/images/gallery/carpet-before-1.jpg" class="slide active">
+                <img src="assets/images/gallery/carpet-after-2.jpg" class="slide">
+
+                <button class="slide-btn prev">&#10094;</button>
+                <button class="slide-btn next">&#10095;</button>
+            </div>
+
+            <div class="gallery-overlay">
+                <strong>Carpet Cleaning</strong>
+            </div>
+
         </div>
 
         <div class="gallery-item">
-            <img src="assets/images/gallery/patio-pavers-complete.jpg" alt="Custom Patio">
-            <div class="gallery-overlay"><strong>Custom Patio</strong></div>
+
+            <div class="gallery-slider">
+                <img src="assets/images/gallery/kitchen-remodel-1.jpg" class="slide active">
+                <img src="assets/images/gallery/kitchen-remodel-2.jpg" class="slide">
+
+                <button class="slide-btn prev">&#10094;</button>
+                <button class="slide-btn next">&#10095;</button>
+            </div>
+
+            <div class="gallery-overlay">
+                <strong>Kitchen Remodel</strong>
+            </div>
+
         </div>
 
         <div class="gallery-item">
-            <img src="assets/images/gallery/roofing-repair.jpg" alt="Roof Repair">
-            <div class="gallery-overlay"><strong>Roof Repair</strong></div>
-        </div>
 
-        <div class="gallery-item">
-            <img src="assets/images/gallery/commercial-kitchen.jpg" alt="Commercial Kitchen">
-            <div class="gallery-overlay"><strong>Commercial Kitchen</strong></div>
-        </div>
+            <div class="gallery-slider">
+                <img src="assets/images/gallery/kitchen-remodel-1.jpg" class="slide active">
+                <img src="assets/images/gallery/kitchen-remodel-2.jpg" class="slide">
 
-        <div class="gallery-item">
-            <img src="assets/images/gallery/laundry-room-cabinets.jpg" alt="Laundry Room">
-            <div class="gallery-overlay"><strong>Laundry Room Cabinets</strong></div>
-        </div>
+                <button class="slide-btn prev">&#10094;</button>
+                <button class="slide-btn next">&#10095;</button>
+            </div>
 
-        <div class="gallery-item">
-            <img src="assets/images/gallery/solar-electrical.jpg" alt="Solar Installation">
-            <div class="gallery-overlay"><strong>Solar Installation</strong></div>
-        </div>
+            <div class="gallery-overlay">
+                <strong>Kitchen Remodel</strong>
+            </div>
 
-        <div class="gallery-item">
-            <img src="assets/images/gallery/patio-pavers-progress.jpg" alt="Paver Installation">
-            <div class="gallery-overlay"><strong>Paver Installation</strong></div>
         </div>
 
     </div>
@@ -108,18 +134,46 @@
     <h2>Ready to Start Your Project?</h2>
     <p>Let’s build something amazing together.</p>
     <a href="tel:562-525-6091" class="btn-primary btn-white">
-        📞 CALL (562) 525-6091
+        CALL (562) 525-6091
     </a>
 </section>
 
-<!-- Footer -->
+<!-- FOOTER -->
 <footer class="footer">
-    <div class="footer-content">
-        <h3>PROFIX HANDYMAN SERVICES</h3>
-        <p>Licensed, Bonded & Insured</p>
-        <p>Serving Orange County & Los Angeles</p>
-        <p>© 2026 ProFix. All rights reserved.</p>
+
+    <div class="footer-top">
+
+        <!-- Column 1 -->
+        <div class="footer-col">
+            <h3>PROFIX HANDYMAN SERVICES</h3>
+            <p>Licensed, Bonded & Insured</p>
+            <p>Serving Orange County & Los Angeles</p>
+        </div>
+
+        <!-- Column 2 - Hours -->
+        <div class="footer-col">
+            <h4>Business Hours</h4>
+            <p>Mon – Fri: 8:00 AM – 6:00 PM</p>
+            <p>Saturday: 9:00 AM – 4:00 PM</p>
+            <p>Sunday: Closed</p>
+        </div>
+
     </div>
+
+    <!-- Social Links Row -->
+    <div class="footer-social">
+        <a href="https://www.instagram.com/profixoc" target="_blank">Instagram</a>
+        <a href="linkedin.com/company/profix-handyman-services" target="_blank">LinkedIn</a>
+        <a href="https://www.facebook.com/profile.php?id=61571791307152" target="_blank">Facebook</a>
+        <a href="https://www.yelp.com/biz/profix-handyman-services-yorba-linda" target="_blank">Yelp</a>
+        <a href="https://nextdoor.com/pages/profix-handyman-services-yorba-linda-ca/" target="_blank">Nextdoor</a>
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-bottom">
+        © 2026 ProFix. All rights reserved.
+    </div>
+
 </footer>
 
 <!-- Shared Chat -->

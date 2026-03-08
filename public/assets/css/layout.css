@@ -14,9 +14,9 @@
     box-shadow: 0 2px 20px rgba(0,0,0,0.05);
 }
 
-
 .logo img {
-    height: 50px;
+    height: 100px;
+    padding-left: 50px;
 }
 
 .nav-links {
@@ -24,12 +24,11 @@
     left: 50%;
     transform: translateX(-50%);
     display: flex;
-    gap: 40px;
+    gap: 85px;
     align-items: center;
 }
 
 /* ================= HERO ================= */
-
 .hero {
     margin-top: 80px;
     background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
@@ -38,7 +37,7 @@
     background-position: center;
     background-attachment: fixed;
     color: var(--white);
-    padding: 160px 40px;
+    padding: 120px 40px;
     text-align: center;
     min-height: 90vh;
     display: flex;
@@ -83,7 +82,7 @@
 
 .before-after-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     max-width: 1200px;
     margin: 0 auto;
@@ -147,6 +146,30 @@
     text-align: center;
 }
 
+.team-section {
+    padding: 100px 40px;
+    background: #f3f4f6;
+}
+
+.team-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.team-text {
+    text-align: left;
+}
+
+.team-image img {
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+}
+
 /* ================= STATS ================= */
 
 .stats-section {
@@ -187,7 +210,7 @@
 /* ================= CTA ================= */
 
 .cta-section {
-    padding: 160px 40px; /* Bigger vertical spacing */
+    padding: 120px 40px;
     background: 
         linear-gradient(rgba(0, 184, 212, 0.65), rgba(0, 184, 212, 0.65)), 
         url('../images/gallery/roofing-repair.jpg');
@@ -199,7 +222,7 @@
 }
 
 .cta-section h2 {
-    font-size: 64px;          /* BIG + bold */
+    font-size: 64px;
     font-weight: 800;
     letter-spacing: -1px;
     margin-bottom: 20px;
@@ -232,10 +255,56 @@
 /* ================= FOOTER ================= */
 
 .footer {
-    background: var(--black);
-    color: var(--white);
-    padding: 60px 40px;
+    background: #111;
+    color: white;
+    padding: 60px 40px 30px;
+}
+
+.footer-top {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* since you only have 2 columns */
+    gap: 60px;
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+    text-align: center; /* centers text inside columns */
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centers content horizontally */
+}
+
+.footer-col h3,
+.footer-col h4 {
+    margin-bottom: 20px;
+}
+
+.footer-col p {
+    margin-bottom: 10px;
+}
+
+.footer-social {
     text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-social a {
+    margin: 0 15px;
+    color: #aaa;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.footer-social a:hover {
+    color: var(--teal);
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.7;
 }
 
 .page-header {
@@ -362,7 +431,7 @@
 
 .service-areas {
     background: #f3f4f6;
-    padding: 100px 40px;
+    padding: 40px 40px;
     text-align: center;
 }
 
@@ -406,7 +475,7 @@
 }
 
 .map-section {
-    padding: 80px 40px;
+    padding: 40px 40px;
     text-align: center;
 }
 
