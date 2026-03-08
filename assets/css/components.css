@@ -104,7 +104,6 @@
     margin-bottom: 20px;
 }
 
-/* CONTACT HERO */
 .contact-hero {
     background: #000;
     color: #fff;
@@ -123,7 +122,6 @@
     margin-top: 15px;
 }
 
-/* EMERGENCY BANNER */
 .emergency-banner {
     background: linear-gradient(135deg, #00a8c4 0%, #008ca6 100%);
     color: white;
@@ -244,8 +242,6 @@
     display: block;
 }
 
-
-/* FORM */
 .contact-form-section {
     padding: 80px 20px;
     background: #f5f5f5;
@@ -327,8 +323,6 @@
     right: 10px;
 }
 
-/* ================= SERVICES SPLIT LAYOUT ================= */
-
 .service-split {
     padding: 60px 40px;
 }
@@ -346,7 +340,6 @@
     border-top: 1px solid #e5e7eb;
 }
 
-/* LEFT SIDE */
 .service-info {
     flex: 1;
     display: flex;
@@ -368,13 +361,10 @@
     font-size: 18px;
 }
 
-/* RIGHT SIDE (SERVICE SLIDER) */
 .service-slider {
     flex: 1;
     display: flex;
 }
-
-/* SERVICE SLIDER HEIGHT CONTROL */
 
 .service-slider-wrapper {
     position: relative;
@@ -399,7 +389,6 @@
     display: block;
 }
 
-/* Arrows */
 .service-slide-btn {
     position: absolute;
     top: 50%;

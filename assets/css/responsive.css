@@ -1,4 +1,3 @@
-/* ================== LARGE TABLETS ================== */
 @media (max-width: 1200px) {
 
     .contact-grid {
@@ -7,8 +6,6 @@
 
 }
 
-
-/* ================== TABLETS ================== */
 @media (max-width: 992px) {
 
     /* NAV */
@@ -49,11 +46,8 @@
 
 }
 
-
-/* ================== MOBILE ================== */
 @media (max-width: 768px) {
 
-    /* NAV STACKING */
     .nav {
         position: relative;
         flex-direction: column;
@@ -86,12 +80,10 @@
         max-width: 140px;
     }
 
-    /* HERO */
     .hero h1 {
         font-size: 36px;
     }
 
-    /* GRIDS */
     .before-after-grid {
         grid-template-columns: 1fr;
     }
@@ -125,7 +117,6 @@
         width: 100%;
     }
 
-    /* SERVICES SECTION */
     .service-split {
         padding: 60px 20px;
     }
@@ -137,13 +128,10 @@
     .service-slider-wrapper {
         height: 280px;
     }
-
 }
 
-/* ================== SMALL MOBILE ================== */
 @media (max-width: 480px) {
 
-    /* NAV (reinforce stacking) */
     .nav {
         position: relative;
         flex-direction: column;
@@ -176,7 +164,6 @@
         max-width: 120px;
     }
 
-    /* HERO */
     .hero {
         padding: 80px 20px;
     }
@@ -189,7 +176,6 @@
         font-size: 18px;
     }
 
-    /* GRIDS */
     .stats-grid {
         grid-template-columns: 1fr;
     }
@@ -209,5 +195,4 @@
     .contact-grid {
         grid-template-columns: 1fr;
     }
-
 }
