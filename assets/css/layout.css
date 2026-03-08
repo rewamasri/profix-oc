@@ -30,7 +30,6 @@
 
 /* ================= HERO ================= */
 .hero {
-    margin-top: 110px;
     background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
         url('../images/gallery/patio-pavers-complete.jpg');
     background-size: cover;
