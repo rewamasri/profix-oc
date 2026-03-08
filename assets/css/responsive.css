@@ -112,8 +112,17 @@
         grid-template-columns: 1fr;
     }
 
-    .team-section .team-grid {
+    .team-container {
         grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .team-text {
+        text-align: center;
+    }
+
+    .team-image img {
+        width: 100%;
     }
 
     /* SERVICES SECTION */
@@ -131,8 +140,6 @@
 
 }
 
-
-/* ================== SMALL MOBILE ================== */
 /* ================== SMALL MOBILE ================== */
 @media (max-width: 480px) {
 
