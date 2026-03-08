@@ -41,7 +41,11 @@ section {
 }
 
 @media (max-width: 768px) {
+    .nav {
+        position: relative;
+    }
+
     body {
-        padding-top: 260px;
+        padding-top: 0;
     }
 }
